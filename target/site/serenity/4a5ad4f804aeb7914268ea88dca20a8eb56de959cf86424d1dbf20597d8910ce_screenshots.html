@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname"></span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="5ec6c636f4d6db279c53b87d89351454c2cf9f7fd8c2eeaf862ca89cabdef3b0.html">Registration To The Conference</a></span>
+                > <span class="truncate-60"><a
+                    href="4a5ad4f804aeb7914268ea88dca20a8eb56de959cf86424d1dbf20597d8910ce.html">Reserve a seat for the talks and attend a workshop (Owens Osborne) </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 11-07-2018 05:59</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Registration To The Conference</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="03578eb846f571b776f1c69adddc0b1f7cddd509091dfbc1ad7ffc9beed23f55.html">JIRA-6
+                                    (issue)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="38e6d02e5e393aa24cdf5821afc6dd92111b4261fa02877fca4632298c86e549.html">Chrome
+                                    (browser)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="e63151704bf084bbabd852331908fda2cdcf3e09eae8dc5b9d6aa3a22a340985.html">02-Register
+                                    (capability)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="e19c3508fd54124cd63a76cac50216dd344d6198f7923afc36ef890e78850a87.html">Features
+                                    (theme)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Reserve a seat for the talks and attend a workshop (Owens Osborne)
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="scaled_91a9477ea346a616076eaedb127cd176.png" title="Given that Owens Osborne gets access to the ticket reservation page" width="0"/>
+                <img src="48dd0a88c05bdd08f3a3f9a5f8603254.png" title="Owens Osborne visits the conference page" width="0"/>
+                <img src="48dd0a88c05bdd08f3a3f9a5f8603254.png" title="Owens Osborne opens the browser at &quot;/&quot;" width="0"/>
+                <img src="48dd0a88c05bdd08f3a3f9a5f8603254.png" title="Owens Osborne maximises the browser window" width="0"/>
+                <img src="91a9477ea346a616076eaedb127cd176.png" title="Owens Osborne wants to register" width="0"/>
+                <img src="91a9477ea346a616076eaedb127cd176.png" title="Owens Osborne clicks on the Register button" width="0"/>
+                <img src="scaled_87a044d8310f8c35f921667ae99743f6.png" title="When he buys a quantity of 2 early tickets for the talks" width="0"/>
+                <img src="87a044d8310f8c35f921667ae99743f6.png" title="Owens Osborne buys a quantity of 2 early tickets for the talks" width="0"/>
+                <img src="scaled_60f1144a072aea7ffe86d7aa02db1579.png" title="Owens Osborne buys a quantity of 2 tickets of type early" width="0"/>
+                <img src="91a9477ea346a616076eaedb127cd176.png" title="Owens Osborne clicks on the Talks tab" width="0"/>
+                <img src="60f1144a072aea7ffe86d7aa02db1579.png" title="Owens Osborne enters 2 into the Number of Early Tickets field" width="0"/>
+                <img src="scaled_997f4e3aad94ffc48edea824d6975b11.png" title="And he buys a quantity of 3 tickets for the workshop Workshop B" width="0"/>
+                <img src="997f4e3aad94ffc48edea824d6975b11.png" title="Owens Osborne buys a quantity of 3 for the workshop Workshop B" width="0"/>
+                <img src="scaled_08d89632a1aca670216590b63854c997.png" title="Owens Osborne buys a quantity of 3 tickets of type Workshop B" width="0"/>
+                <img src="scaled_7b1e8c7f3f1b366492fd6d43f8cc05eb.png" title="Owens Osborne clicks on the Workshops tab" width="0"/>
+                <img src="08d89632a1aca670216590b63854c997.png" title="Owens Osborne enters 3 into the Number of Workshop B Tickets field" width="0"/>
+                <img src="scaled_94db105d522e24ca627fd898cb9d73d1.png" title="And he fills the registration form with his personal info: Owens Osborne, deborahAguirre, deborahaguirre@panzent.com, 23/10/1988, ZYTREK, 267 Ocean Avenue - Itmann - New Jersey - 1749, Greenwich, 81335, France" width="0"/>
+                <img src="94db105d522e24ca627fd898cb9d73d1.png" title="Owens Osborne fills the registration form with his Owens Osborne, deborahAguirre, deborahaguirre@panzent.com, 23/10/1988, ZYTREK, 267 Ocean Avenue - Itmann - New Jersey - 1749, Greenwich, 81335, France" width="0"/>
+                <img src="scaled_1448fd2ab1d62ba049189d049b00dd29.png" title="Owens Osborne scrolls to the Continue button of the tickets section" width="0"/>
+                <img src="scaled_4f05fa1145b3271c1e7c326a89ff265d.png" title="Owens Osborne clicks on the Continue button of the tickets section" width="0"/>
+                <img src="scaled_e4f0f442d8f5aee71a4b251c9b18d817.png" title="Owens Osborne enters Owens Osborne into the Actor's Fullname" width="0"/>
+                <img src="scaled_78f39ae58eb7218db19c7e92088acf79.png" title="Owens Osborne enters deborahAguirre into the Actor's Nickname" width="0"/>
+                <img src="scaled_0e47cc48b4a1dd6b9db4b65dc405f314.png" title="Owens Osborne enters deborahaguirre@panzent.com into the Actor's Email" width="0"/>
+                <img src="scaled_9e8945d5561f418202d8056041c313aa.png" title="Owens Osborne picks the date 23/10/1988 on the Actor's Date of Birth" width="0"/>
+                <img src="scaled_5b889371594e6cca59b2060d0a2f592b.png" title="Owens Osborne enters ZYTREK into the Actor's Company" width="0"/>
+                <img src="scaled_3a28cb76cf2657930178ff7641cf0fdd.png" title="Owens Osborne enters 267 Ocean Avenue - Itmann - New Jersey - 1749 into the Actor's Address" width="0"/>
+                <img src="scaled_4379b6c254b0571b1803a2d844d24ee1.png" title="Owens Osborne enters Greenwich into the Actor's City" width="0"/>
+                <img src="scaled_38e9bd4670699b2dc5111ab4dd0a3dcd.png" title="Owens Osborne enters 81335 into the Actor's Zip" width="0"/>
+                <img src="scaled_90c0982e3f36805a6cb84ee7e0aecd3e.png" title="Owens Osborne selects &quot;France&quot; from the Actor's Country" width="0"/>
+                <img src="94db105d522e24ca627fd898cb9d73d1.png" title="Owens Osborne clicks on the Continue button of the registration form" width="0"/>
+                <img src="94db105d522e24ca627fd898cb9d73d1.png" title="Then he sees the message 'Thank you to have been registered to the AT conference'" width="0"/>
+                <img src="94db105d522e24ca627fd898cb9d73d1.png" title="Owens Osborne checks the text of the Thanking message for the registration: <span class='success-color'>SUCCESS</span>" width="0"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>
